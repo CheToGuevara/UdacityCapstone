@@ -41,7 +41,8 @@ public class GameManager : MonoBehaviour {
         UnityEngine.SceneManagement.SceneManager.LoadScene(level, mode);
 
         Transform startposition = GameObject.Find("StartPoint").transform;
-        m_CardBoardprefab.transform.position = startposition.position;
+        m_CardBoardprefab.transform.SetParent(startposition,true);
+        m_CardBoardprefab.transform.position = new Vector3(0, 0, 0);
 
 
 

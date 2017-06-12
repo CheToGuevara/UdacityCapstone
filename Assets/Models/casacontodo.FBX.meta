@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 5e0fbf0f727a4fb4fb6e64dafa8937e4
+timeCreated: 1496940903
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box021
+    100004: cama
+    100006: //RootNode
+    100008: Chimenea
+    100010: Cylinder001
+    100012: Cylinder005
+    100014: Cylinder006
+    100016: plato
+    100018: PrimeraPlanta
+    100020: Puerta
+    100022: SegundaPlanta
+    100024: sofa
+    100026: Sphere004
+    100028: Suelo
+    100030: SueloPlanta
+    100032: Techo
+    100034: tele
+    100036: vaso
+    100038: Ventana
+    400000: Box001
+    400002: Box021
+    400004: cama
+    400006: //RootNode
+    400008: Chimenea
+    400010: Cylinder001
+    400012: Cylinder005
+    400014: Cylinder006
+    400016: plato
+    400018: PrimeraPlanta
+    400020: Puerta
+    400022: SegundaPlanta
+    400024: sofa
+    400026: Sphere004
+    400028: Suelo
+    400030: SueloPlanta
+    400032: Techo
+    400034: tele
+    400036: vaso
+    400038: Ventana
+    2300000: Box001
+    2300002: Box021
+    2300004: cama
+    2300006: Chimenea
+    2300008: Cylinder001
+    2300010: Cylinder005
+    2300012: Cylinder006
+    2300014: plato
+    2300016: PrimeraPlanta
+    2300018: Puerta
+    2300020: SegundaPlanta
+    2300022: sofa
+    2300024: Sphere004
+    2300026: Suelo
+    2300028: SueloPlanta
+    2300030: Techo
+    2300032: tele
+    2300034: vaso
+    2300036: Ventana
+    3300000: Box001
+    3300002: Box021
+    3300004: cama
+    3300006: Chimenea
+    3300008: Cylinder001
+    3300010: Cylinder005
+    3300012: Cylinder006
+    3300014: plato
+    3300016: PrimeraPlanta
+    3300018: Puerta
+    3300020: SegundaPlanta
+    3300022: sofa
+    3300024: Sphere004
+    3300026: Suelo
+    3300028: SueloPlanta
+    3300030: Techo
+    3300032: tele
+    3300034: vaso
+    3300036: Ventana
+    4300000: SueloPlanta
+    4300002: Techo
+    4300004: Suelo
+    4300006: PrimeraPlanta
+    4300008: SegundaPlanta
+    4300010: Chimenea
+    4300012: Puerta
+    4300014: Ventana
+    4300016: Box021
+    4300018: Cylinder005
+    4300020: Cylinder001
+    4300022: Cylinder006
+    4300024: Box001
+    4300026: sofa
+    4300028: vaso
+    4300030: plato
+    4300032: Sphere004
+    4300034: tele
+    4300036: cama
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

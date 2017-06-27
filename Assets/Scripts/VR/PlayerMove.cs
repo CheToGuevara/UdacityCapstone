@@ -34,12 +34,9 @@ public class PlayerMove : MonoBehaviour {
 #endif
 
 #if UNITY_ANDROID
-        foreach (Touch touch in Input.touches)
-        { 
-            if (touch.phase == TouchPhase.Began)
-            {
-                Clicked();
-            }
+        if (Input.touchCount > 0)
+        {
+            Clicked();
         }
 #endif
 

@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour {
 
     public string[] levelname;
 
-    private string level = "Intro";
+    public string level = "Intro";
+    public int levlid =0;
     // Use this for initialization
 
 
@@ -73,13 +74,37 @@ public class GameManager : MonoBehaviour {
     {
         Transform startposition = GameObject.Find("StartPoint").transform;
         m_CardBoardprefab.transform.SetParent(startposition, true);
-        m_CardBoardprefab.transform.localPosition = new Vector3(0, 0.5f, 0);
+        switch(levlid)
+        {
+            case 0:
+                m_CardBoardprefab.transform.localPosition = new Vector3(0, 0.5f, 0);
+                break;
+            case 1:
+                m_CardBoardprefab.transform.localPosition = new Vector3(0, 1.0f, 0);
+                break;
+            case 2:
+                
+                PlayerMove m_move = m_CardBoardprefab.AddComponent<PlayerMove>();
+                m_move.mainobject = startposition.gameObject;
+                m_CardBoardprefab.transform.localPosition = new Vector3(0, 0.75f, 0);
+                GameObject.Find("Impling").transform.SetParent(m_CardBoardprefab.transform,true);
+                break;
+            default:
+                m_CardBoardprefab.transform.localPosition = new Vector3(0, 0.5f, 0);
+                break;
+        }
+        
 
     }
 
     private void SetOut()
     {
-        
+        PlayerMove a = m_CardBoardprefab.GetComponent<PlayerMove>();
+        if (a != null)
+           Destroy(a);
+        GameObject impling = GameObject.Find("Impling");
+        if (impling != null)
+            Destroy(impling);
         m_CardBoardprefab.transform.SetParent(null, true);
         m_CardBoardprefab.transform.localPosition = new Vector3(0, 0.5f, 0);
 
@@ -89,8 +114,8 @@ public class GameManager : MonoBehaviour {
 
     public void changeLevel (int levelid)
     {
-
-        level = levelname[levelid];
+        levlid = levelid;
+        level = levelname[levlid];
         SetOut();
         DontDestroy();
 
